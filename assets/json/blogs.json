@@ -1,0 +1,42 @@
+{
+    "pageType": "all Blogs",
+    "categories": ["computes", "nature", "AI", "cars"],
+    "blogs": [
+        {
+            "blogId":"b-0",
+            "categoryType":["computers", "web"],
+            "blogTitle": "title of the blog",
+            "timestamp": "24-12-2001",
+            "blogImage": "imageUrl",
+            "blogSize": 345,
+            "userId": "u-0"
+        },
+        {
+            "blogId":"b-1",
+            "categoryType":["computers", "web"],
+            "blogTitle": "title of the blog",
+            "timestamp": "24-12-2001",
+            "blogImage": "imageUrl",
+            "blogSize": 345,
+            "userId": "u-0"
+        },
+        {
+            "blogId":"b-2",
+            "categoryType":["computers", "web"],
+            "blogTitle": "title of the blog",
+            "timestamp": "24-12-2001",
+            "blogImage": "imageUrl",
+            "blogSize": 345,
+            "userId": "u-1"
+        },
+        {
+            "blogId":"b-3",
+            "categoryType":["computers", "web"],
+            "blogTitle": "title of the blog",
+            "timestamp": "24-12-2001",
+            "blogImage": "imageUrl",
+            "blogSize": 345,
+            "userId": "u-1"
+        }
+    ]
+} 

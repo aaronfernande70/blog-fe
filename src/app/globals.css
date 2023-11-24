@@ -17,11 +17,54 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: rgb(255, 255, 255);
+  color: #191919;
+  /* font-family: system-ui; */
+  /* font-family: cursive; */
+  /* font-family: fantasy; */
+  font-family: sans-serif;
+  font-size: 1rem;
+  animation-name: lazy;
+  animation-duration: 1s;
+  transition-timing-function: ease-in;
+}
+
+
+#logo::before {
+  opacity: 0;
+}
+#logo::after {
+  opacity: 1;
+}
+
+#logo {
+  animation-name: title;
+  animation-duration: 1.2s;
+  transition-timing-function: ease-in;
+}
+
+@keyframes title {
+  0% {
+    letter-spacing: 5ch;
+    opacity: 0;
+  }
+
+  100% {
+    letter-spacing: 0ch;
+    opacity: 1;
+  }
+}
+
+.lazy-image {
+  animation-name: lazy;
+  animation-duration: 4s;
+  transition-timing-function: ease-in;
+}
+@keyframes lazy {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
