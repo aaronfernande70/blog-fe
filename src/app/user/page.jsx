@@ -17,9 +17,9 @@ export default function user() {
         <h1 className="font-semibold text-base">Aaron Fernandes</h1>
         <h2>_aaron_fernandes</h2>
         <p>
-          work, relationships, and death; it portrays a person's experience of
-          these life events. Unlike a profile or curriculum vitae (résumé), a
-          biography presents a subject's life story, highlighting various
+          work, relationships, and death; it portrays a persons experience of
+          these life events. Unlike a profile or curriculum vi, a
+          biography presents a subjects life story, highlighting various
           aspects of their life, including intimate details of experience, and
           may include an analysis
         </p>
