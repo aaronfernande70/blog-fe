@@ -1,9 +1,7 @@
-import Footer from './components/organisms/Footer'
+import { Providers } from '@/provider'
 import Header from './components/organisms/Header'
 import './globals.css'
-import { Inter } from 'next/font/google'
 
-// const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'blob',
@@ -12,6 +10,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+    <Providers>
+
     <html lang="en">
       <body className="font-serif">
         <Header/>
@@ -19,5 +19,7 @@ export default function RootLayout({ children }) {
         {/* <Footer/> */}
       </body>
     </html>
+    </Providers>
+
   )
 }

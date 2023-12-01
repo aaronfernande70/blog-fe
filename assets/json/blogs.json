@@ -1,13 +1,13 @@
 {
     "pageType": "all Blogs",
-    "categories": ["computes", "nature", "AI", "cars"],
+    "categories": ["computes", "nature", "AI", "cars", "web"],
     "blogs": [
         {
             "blogId":"b-0",
             "categoryType":["computers", "web"],
             "blogTitle": "title of the blog",
             "timestamp": "24-12-2001",
-            "blogImage": "imageUrl",
+            "blogImage": "imageUrl",    
             "blogSize": 345,
             "userId": "u-0"
         },

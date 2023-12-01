@@ -45,7 +45,7 @@ body {
 
 @keyframes title {
   0% {
-    letter-spacing: 5ch;
+    letter-spacing: 1ch;
     opacity: 0;
   }
 

@@ -2,18 +2,21 @@ import Image from "next/image";
 import TileUserChip from "../../molecules/TileUserChip";
 import TimeChip from "../../molecules/TimeChip";
 import Link from "next/link";
+import Categories from "../Categories";
 
 export default function Tile({ blog }) {
+  // const placeholderImg = "www.unfe.org/wp-content/uploads/2019/04/SM-placeholder.png"
+  console.log(blog);
   return (
-    <div className="w-full bg-white mb-3">
+    <div className=" bg-white mb-3 md:w-96 ">
       <Link href="/blog">
-        <Image
+       {blog?.blogImage && <Image 
           className="mx-auto rounded-sm lazy-image"
-          src="https://www.unfe.org/wp-content/uploads/2019/04/SM-placeholder.png"
+          src={blog?.blogImage}
           alt="placeholder"
           height="175"
           width="350"
-        />
+        />}
       </Link>
 
       <div className="px-4 pb-3">
@@ -27,7 +30,7 @@ export default function Tile({ blog }) {
             <svg
               width="24"
               height="24"
-              fill="black"
+              fill=""
               xmlns="http://www.w3.org/2000/svg"
               data-v-481ddfc4=""
             >
@@ -35,6 +38,7 @@ export default function Tile({ blog }) {
             </svg>
           </div>
         </div>
+        <Categories categories={blog.categoryType}/>
       </div>
     </div>
   );
