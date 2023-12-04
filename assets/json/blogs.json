@@ -5,27 +5,27 @@
         {
             "blogId":"b-0",
             "categoryType":["computers", "web"],
-            "blogTitle": "title of the blog",
+            "blogTitle": "the orange mountains",
             "timestamp": "24-12-2001",
-            "blogImage": "https://www.unfe.org/wp-content/uploads/2019/04/SM-placeholder.png",    
+            "blogImage": "https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/content-assets/images/20230708_STP001.jpg",    
             "blogSize": 345,
             "userId": "u-0"
         },
         {
             "blogId":"b-1",
             "categoryType":["computers", "web"],
-            "blogTitle": "title of the blog",
+            "blogTitle": "the tribes in India",
             "timestamp": "24-12-2001",
-            "blogImage": "https://www.unfe.org/wp-content/uploads/2019/04/SM-placeholder.png",
+            "blogImage": "https://images.lifestyleasia.com/wp-content/uploads/sites/7/2022/07/25120507/shutterstock_413973961.jpeg",
             "blogSize": 345,
             "userId": "u-0"
         },
         {
             "blogId":"b-2",
             "categoryType":["computers", "web"],
-            "blogTitle": "title of the blog",
+            "blogTitle": "Green vally",
             "timestamp": "24-12-2001",
-            "blogImage": "https://www.unfe.org/wp-content/uploads/2019/04/SM-placeholder.png",
+            "blogImage": "https://www.trawell.in/admin/images/upload/531957213Green_Valley_Main.jpg",
             "blogSize": 345,
             "userId": "u-1"
         },
