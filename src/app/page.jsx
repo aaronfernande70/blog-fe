@@ -7,15 +7,18 @@ import { getBlogs } from "@/redux/action/blogs.action";
 import { useEffect, useLayoutEffect, useState } from "react";
 import Categories from "./components/organisms/Categories";
 // import { useEffect } from "react";
+import * as pageData from '../../assets/json/blogs.json'
+
 
 export default function Home() {
-  let dispatch = useDispatch()
+  // let dispatch = useDispatch()
 
-  let pageData = useSelector((state) => state.blogs.pageData);
-  useEffect(() => {
-    dispatch(getBlogs());
+  // let pageData = useSelector((state) => state.blogs.pageData);
+  // useEffect(() => {
+  //   dispatch(getBlogs());
 
-  }, [])
+  // }, [])
+  
   // console.log(pageData?.categories)
  
 
