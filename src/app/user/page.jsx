@@ -8,8 +8,8 @@ export default function user() {
     <div className="px-5">
       <div className="m-auto flex text-center justify-center flex-col items-center mt-9 gap-5 px-8 text-sm pb-8 border-b">
         <Image
-          className="rounded-full lazy-image"
-          src="https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg"
+          className="rounded-full lazy-image aspect-square"
+          src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/03/10/18/mona-lisa.jpg?width=1200&height=900&fit=crop"
           alt="user placeholder"
           width="200"
           height="200"

@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <div className="px-5">
       <Categories categories={pageData?.categories} />
-      <div className="gap-7 grid lg:grid-cols-3 md:grid-cols-2">
+      <div className="gap-7 grid lg:grid-cols-3 place-items-center md:grid-cols-2">
         {pageData?.blogs?.map((item) => (
           <Tile key={item.blogId} blog={item} />
         ))}
