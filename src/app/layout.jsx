@@ -15,6 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta name="mobile-web-app-capable" content="yes"></meta>
+        <meta name="apple-mobile-web-app-capable" content="My Blob"></meta>
       </head>
       <body className="font-serif">
         <Header/>
