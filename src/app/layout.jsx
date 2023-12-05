@@ -13,18 +13,9 @@ export default function RootLayout({ children }) {
   return (
 
     <html lang="en">
-      <Head>
-        <title>
-          blog site
-        </title>
-        {/* <meta
-          name="description"
-          content="Check out iPhone 12 XR Pro and iPhone 12 Pro Max. Visit your local store and for expert advice."
-          key="desc"
-        /> */}
-      <meta name="mobile-web-app-capable" content="yes"></meta>
-
-      </Head>
+      <head>
+        <meta name="mobile-web-app-capable" content="yes"></meta>
+      </head>
       <body className="font-serif">
         <Header/>
         {children}
